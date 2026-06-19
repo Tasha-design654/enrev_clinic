@@ -1,1 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrev medical center Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="brand">
+            <h1>ENTREV MEDICAL CENTER</h1>
+            <p>Find doctors, services, and appointments quickly.</p>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="search.html" class="active">Search</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
+    <main class="content-wrapper">
+        <section class="hero">
+            <div>
+                <span class="eyebrow">Clinic search</span>
+                <h2>Search our care team and services</h2>
+                <p>Use the search tools below to locate a provider, treatment, or appointment slot tailored to your needs.</p>
+            </div>
+        </section>
+
+        <section class="search-panel">
+            <form class="search-form">
+                <div class="field-group">
+                    <label for="query">Search keywords</label>
+                    <input id="query" name="query" type="text" placeholder="Search doctor, service, specialty">
+                </div>
+                <div class="field-row">
+                    <div class="field-group">
+                        <label for="department">Department</label>
+                        <select id="department" name="department">
+                            <option value="">All departments</option>
+                            <option value="general">General Practice</option>
+                            <option value="pediatrics">Pediatrics</option>
+                            <option value="dermatology">Dermatology</option>
+                            <option value="dental">Dental Care</option>
+                            <option value="imaging">Imaging & Diagnostics</option>
+                        </select>
+                    </div>
+                    <div class="field-group">
+                        <label for="visit">Visit type</label>
+                        <select id="visit" name="visit">
+                            <option value="">Any visit</option>
+                            <option value="consultation">Consultation</option>
+                            <option value="followup">Follow-up</option>
+                            <option value="screening">Screening</option>
+                            <option value="emergency">Urgent care</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="field-row">
+                    <div class="field-group">
+                        <label for="location">Location</label>
+                        <select id="location" name="location">
+                            <option value="">Any location</option>
+                            <option value="downtown">Downtown Clinic</option>
+                            <option value="northside">Northside Health Center</option>
+                            <option value="eastside">Eastside Clinic</option>
+                        </select>
+                    </div>
+                    <div class="field-group search-action">
+                        <button type="submit">Search now</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        <section class="results">
+            <div class="results-header">
+                <h3>Search results</h3>
+                <p>Enter a search term above to begin. Suggested searches include doctors, departments, and services.</p>
+            </div>
+
+            <div class="result-grid">
+                <article class="result-card">
+                    <h4>Dr. Maya Patel</h4>
+                    <p>Family Medicine · Downtown Clinic</p>
+                    <p>Available for consultation and routine care.</p>
+                </article>
+                <article class="result-card">
+                    <h4>Dermatology Consultation</h4>
+                    <p>Skin care, mole checks, acne treatment.</p>
+                    <p>Book a same-week visit at Northside Health Center.</p>
+                </article>
+                <article class="result-card">
+                    <h4>Children's Wellness Visit</h4>
+                    <p>Pediatrics · Eastside Clinic</p>
+                    <p>Comprehensive pediatric exams and vaccinations.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="services" class="suggestions">
+            <h3>Popular clinic searches</h3>
+            <ul>
+                <li>Primary care doctor</li>
+                <li>New patient appointment</li>
+                <li>Dental checkup</li>
+                <li>Lab and imaging services</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+        <p>Entrev Medical Center · Open Mon–Sat · 8:00 AM – 6:00 PM</p>
+        <p>Email: entrevmedicalcenter@gmail.com · Phone: (256) 758972226</p>
+    </footer>
+</body>
+</html>
