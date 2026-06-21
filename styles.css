@@ -311,10 +311,87 @@ body {
     background-color: #0284c7;
     color: white;
 }
+/* ==========================================================================
+   7. CONTACT PAGE LAYOUT & FORM ELEMENTS
+   ========================================================================== */
+.contact-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.contact-card, 
+.form-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    margin-bottom: 30px;
+}
+
+.contact-card h2, 
+.form-container h2 {
+    color: #0f172a;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #f1f5f9;
+    padding-bottom: 10px;
+}
+
+.contact-card p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #475569;
+}
+
+.form-container label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #1e293b;
+}
+
+.form-container input, 
+.form-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #334155;
+    background-color: #ffffff;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-container input:focus, 
+.form-container textarea:focus {
+    border-color: #0284c7;
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+}
+
+.form-container button[type="submit"] {
+    background-color: #0284c7;
+    color: #ffffff;
+    border: none;
+    padding: 14px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.form-container button[type="submit"]:hover {
+    background-color: #0369a1;
+}
 
 
 /* ==========================================================================
-   7. GLOBAL FOOTER STRIP
+   8. GLOBAL FOOTER STRIP
    ========================================================================== */
 footer {
     background-color: #0f172a;
