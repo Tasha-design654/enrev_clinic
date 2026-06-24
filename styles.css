@@ -47,7 +47,8 @@ body {
    2. HOME PAGE HERO & LAYOUTS 
    ========================================================================== */
 .hero {
-    background: linear-gradient(rgba(0, 86, 179, 0.7), rgba(43, 45, 66, 0.8)), no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 86, 179, 0.7), rgba(43, 45, 66, 0.8)),
+       url('images/Entrev hospital.jpg') no-repeat center center/cover;
     min-height: 85vh; 
     display: flex;
     align-items: center;
