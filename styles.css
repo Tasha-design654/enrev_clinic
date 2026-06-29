@@ -653,3 +653,55 @@ footer {
 .lh-base {
     line-height: 1.75 !important;
 }
+/* Hero Section Layout Base */
+.services-hero {
+    background-color: #0a2540; /* Dark deep blue like Cleveland Clinic */
+    color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.services-hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.services-hero p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    opacity: 0.9;
+}
+
+/* Flexbox wrapper to keep input field and button beautifully inline */
+.search-bar {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border-radius: 5px;
+    overflow: hidden; /* Ensures borders wrap nicely */
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 15px 20px;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+}
+
+.search-bar button {
+    background-color: #0076d6; /* Prominent clinical button color */
+    color: white;
+    border: none;
+    padding: 0 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.search-bar button:hover {
+    background-color: #00569d;
+}
